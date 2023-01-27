@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="col col-1">
+            <div class="div-img">
+                <img src="imagenes/Vector.svg" alt="Imagen">
+            </div>
+            <div class="menu-entrada">
+                <textarea name="" id="txtEntrada" cols="30" rows="9" class="entrada entrada-input" placeholder="Ingrese el texto aqui"></textarea>
+                <div class="advertencia">
+                    <span class="advertencia-icon">
+                        <img src="imagenes/icono.svg" alt="">
+                    </span>
+                    <span class="advertencia-texto">Solo letras minusculas y sin acentos</span>
+                </div> 
+                <div class="botones">
+                    <button class="boton btn-blue" id="btnEncriptar">Encriptar</button>
+                    <button class="boton btn-white" id="btnDesencriptar">Desencriptar</button>
+                </div>
+            </div>
+        </div>
+        <div class="col col-2">
+            <div class="muneco">
+                <img src="imagenes/Muneco.svg" alt="">
+            </div>
+            <div class="cuadro-texto">
+                <p class="texto texto-output" id="idMostrarMensaje">Ningun mensaje fue encontrado</p>
+                <textarea class="texto texto-input entrada-input ena">Ingresa el texto que deseas encriptar o desencriptar</textarea>
+                
+                <p class="disable txtResultado" id="lblResultado">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus obcaecati omnis id voluptas sed amet autem labore commodi. Consequuntur corporis fugit doloribus repellat dolore eos molestias maxime ducimus rerum quasi? </p>
+                <button class="btnCopiar disable" id="btnCopiar">Copiar</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
